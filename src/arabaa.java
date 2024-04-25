@@ -6,6 +6,12 @@ public class arabaa extends motorrr{
 
 
     }
+    public static String instanceOfMotor(arabaa obj1){
+        if (obj1 instanceof motorrr){
+            return "evet";
+        }
+        else return "hayır";
+    }
 
 
 

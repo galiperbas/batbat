@@ -19,4 +19,5 @@ public class Main {
         arabaa arabam2 = new arabaa("lamborg",2020,"red", "Batu");
         System.out.println(arabam.year);
         }
+
     }
