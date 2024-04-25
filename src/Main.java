@@ -15,7 +15,8 @@ public class Main {
         System.out.println(motorrr1.year);
         System.out.println(motorrr1.brake());
 
-        arabaa arabam = new arabaa("Galip");
+        arabaa arabam = new arabaa("suzuki",1999,"red", "Galip");
+        arabaa arabam2 = new arabaa("lamborg",2020,"red", "Batu");
         System.out.println(arabam.year);
         }
     }

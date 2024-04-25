@@ -1,11 +1,12 @@
 public class motorrr {
-    String model;
-    int year;
-    String color;
-    public  motorrr(String model,int year,String color){
-        this.color=color;
-        this.year=year;
-        this.model=model;
+    protected String model;
+     protected int  year;
+    protected String color;
+
+    public motorrr(String model, int year, String color) {
+        this.model = model;
+        this.year = year;
+        this.color = color;
 
 
     }

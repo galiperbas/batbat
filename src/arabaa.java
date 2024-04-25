@@ -1,7 +1,7 @@
 public class arabaa extends motorrr{
     String sahibi;
-    public arabaa(String sahibi){
-        super("hyua",1560, "black"); //important usage!
+    public arabaa(String model, int year, String color, String sahibi){
+        super(model,year, color); //important usage!
         this.sahibi = sahibi;
 
 
